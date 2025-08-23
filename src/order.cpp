@@ -5,5 +5,4 @@ Order::Order(int orderID, const std::string& symbol, double price, int quantity,
       price(price),
       quantity(quantity),
       isBuy(isBuy) {
-
 }

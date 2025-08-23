@@ -4,19 +4,21 @@
 
 #include "Order.h"
 
+using namespace std;
+
 class Stock {
  public:
-  Stock(const std::string& symbol);
+  Stock(const string& symbol);
 
   // Public methods to interact with the stock
   void addOrder(const Order& order);
   void executeTrades();
   void displayOrderBook() const;
-  const std::string& getSymbol() const { return symbol; }
+  const string& getSymbol() const { return symbol; }
 
  private:
-  std::string symbol;
-  std::vector<Order> buyOrders;
-  std::vector<Order> sellOrders;
+  string symbol;
+  vector<Order> buyOrders;
+  vector<Order> sellOrders;
   double lastTradedPrice;
 };

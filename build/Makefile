@@ -128,6 +128,30 @@ simulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/build
 .PHONY : simulator/fast
 
+src/exchange.obj: src/exchange.cpp.obj
+.PHONY : src/exchange.obj
+
+# target to build an object file
+src/exchange.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/exchange.cpp.obj
+.PHONY : src/exchange.cpp.obj
+
+src/exchange.i: src/exchange.cpp.i
+.PHONY : src/exchange.i
+
+# target to preprocess a source file
+src/exchange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/exchange.cpp.i
+.PHONY : src/exchange.cpp.i
+
+src/exchange.s: src/exchange.cpp.s
+.PHONY : src/exchange.s
+
+# target to generate assembly for a file
+src/exchange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/exchange.cpp.s
+.PHONY : src/exchange.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -152,6 +176,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/order.obj: src/order.cpp.obj
+.PHONY : src/order.obj
+
+# target to build an object file
+src/order.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/order.cpp.obj
+.PHONY : src/order.cpp.obj
+
+src/order.i: src/order.cpp.i
+.PHONY : src/order.i
+
+# target to preprocess a source file
+src/order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/order.cpp.i
+.PHONY : src/order.cpp.i
+
+src/order.s: src/order.cpp.s
+.PHONY : src/order.s
+
+# target to generate assembly for a file
+src/order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/order.cpp.s
+.PHONY : src/order.cpp.s
+
+src/stock.obj: src/stock.cpp.obj
+.PHONY : src/stock.obj
+
+# target to build an object file
+src/stock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/stock.cpp.obj
+.PHONY : src/stock.cpp.obj
+
+src/stock.i: src/stock.cpp.i
+.PHONY : src/stock.i
+
+# target to preprocess a source file
+src/stock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/stock.cpp.i
+.PHONY : src/stock.cpp.i
+
+src/stock.s: src/stock.cpp.s
+.PHONY : src/stock.s
+
+# target to generate assembly for a file
+src/stock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/stock.cpp.s
+.PHONY : src/stock.cpp.s
+
+src/trader.obj: src/trader.cpp.obj
+.PHONY : src/trader.obj
+
+# target to build an object file
+src/trader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/trader.cpp.obj
+.PHONY : src/trader.cpp.obj
+
+src/trader.i: src/trader.cpp.i
+.PHONY : src/trader.i
+
+# target to preprocess a source file
+src/trader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/trader.cpp.i
+.PHONY : src/trader.cpp.i
+
+src/trader.s: src/trader.cpp.s
+.PHONY : src/trader.s
+
+# target to generate assembly for a file
+src/trader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simulator.dir\build.make CMakeFiles/simulator.dir/src/trader.cpp.s
+.PHONY : src/trader.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... simulator
+	@echo ... src/exchange.obj
+	@echo ... src/exchange.i
+	@echo ... src/exchange.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/order.obj
+	@echo ... src/order.i
+	@echo ... src/order.s
+	@echo ... src/stock.obj
+	@echo ... src/stock.i
+	@echo ... src/stock.s
+	@echo ... src/trader.obj
+	@echo ... src/trader.i
+	@echo ... src/trader.s
 .PHONY : help
 
 

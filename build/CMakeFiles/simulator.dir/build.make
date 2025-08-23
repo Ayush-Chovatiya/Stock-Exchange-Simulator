@@ -71,11 +71,26 @@ include CMakeFiles/simulator.dir/flags.make
 CMakeFiles/simulator.dir/codegen:
 .PHONY : CMakeFiles/simulator.dir/codegen
 
+CMakeFiles/simulator.dir/src/exchange.cpp.obj: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/src/exchange.cpp.obj: CMakeFiles/simulator.dir/includes_CXX.rsp
+CMakeFiles/simulator.dir/src/exchange.cpp.obj: D:/Stock_Exchange_Simulator/src/exchange.cpp
+CMakeFiles/simulator.dir/src/exchange.cpp.obj: CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simulator.dir/src/exchange.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulator.dir/src/exchange.cpp.obj -MF CMakeFiles\simulator.dir\src\exchange.cpp.obj.d -o CMakeFiles\simulator.dir\src\exchange.cpp.obj -c D:\Stock_Exchange_Simulator\src\exchange.cpp
+
+CMakeFiles/simulator.dir/src/exchange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulator.dir/src/exchange.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Stock_Exchange_Simulator\src\exchange.cpp > CMakeFiles\simulator.dir\src\exchange.cpp.i
+
+CMakeFiles/simulator.dir/src/exchange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/src/exchange.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Stock_Exchange_Simulator\src\exchange.cpp -o CMakeFiles\simulator.dir\src\exchange.cpp.s
+
 CMakeFiles/simulator.dir/src/main.cpp.obj: CMakeFiles/simulator.dir/flags.make
 CMakeFiles/simulator.dir/src/main.cpp.obj: CMakeFiles/simulator.dir/includes_CXX.rsp
 CMakeFiles/simulator.dir/src/main.cpp.obj: D:/Stock_Exchange_Simulator/src/main.cpp
 CMakeFiles/simulator.dir/src/main.cpp.obj: CMakeFiles/simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simulator.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simulator.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulator.dir/src/main.cpp.obj -MF CMakeFiles\simulator.dir\src\main.cpp.obj.d -o CMakeFiles\simulator.dir\src\main.cpp.obj -c D:\Stock_Exchange_Simulator\src\main.cpp
 
 CMakeFiles/simulator.dir/src/main.cpp.i: cmake_force
@@ -86,19 +101,72 @@ CMakeFiles/simulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/src/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Stock_Exchange_Simulator\src\main.cpp -o CMakeFiles\simulator.dir\src\main.cpp.s
 
+CMakeFiles/simulator.dir/src/order.cpp.obj: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/src/order.cpp.obj: CMakeFiles/simulator.dir/includes_CXX.rsp
+CMakeFiles/simulator.dir/src/order.cpp.obj: D:/Stock_Exchange_Simulator/src/order.cpp
+CMakeFiles/simulator.dir/src/order.cpp.obj: CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simulator.dir/src/order.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulator.dir/src/order.cpp.obj -MF CMakeFiles\simulator.dir\src\order.cpp.obj.d -o CMakeFiles\simulator.dir\src\order.cpp.obj -c D:\Stock_Exchange_Simulator\src\order.cpp
+
+CMakeFiles/simulator.dir/src/order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulator.dir/src/order.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Stock_Exchange_Simulator\src\order.cpp > CMakeFiles\simulator.dir\src\order.cpp.i
+
+CMakeFiles/simulator.dir/src/order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/src/order.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Stock_Exchange_Simulator\src\order.cpp -o CMakeFiles\simulator.dir\src\order.cpp.s
+
+CMakeFiles/simulator.dir/src/stock.cpp.obj: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/src/stock.cpp.obj: CMakeFiles/simulator.dir/includes_CXX.rsp
+CMakeFiles/simulator.dir/src/stock.cpp.obj: D:/Stock_Exchange_Simulator/src/stock.cpp
+CMakeFiles/simulator.dir/src/stock.cpp.obj: CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/simulator.dir/src/stock.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulator.dir/src/stock.cpp.obj -MF CMakeFiles\simulator.dir\src\stock.cpp.obj.d -o CMakeFiles\simulator.dir\src\stock.cpp.obj -c D:\Stock_Exchange_Simulator\src\stock.cpp
+
+CMakeFiles/simulator.dir/src/stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulator.dir/src/stock.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Stock_Exchange_Simulator\src\stock.cpp > CMakeFiles\simulator.dir\src\stock.cpp.i
+
+CMakeFiles/simulator.dir/src/stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/src/stock.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Stock_Exchange_Simulator\src\stock.cpp -o CMakeFiles\simulator.dir\src\stock.cpp.s
+
+CMakeFiles/simulator.dir/src/trader.cpp.obj: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/src/trader.cpp.obj: CMakeFiles/simulator.dir/includes_CXX.rsp
+CMakeFiles/simulator.dir/src/trader.cpp.obj: D:/Stock_Exchange_Simulator/src/trader.cpp
+CMakeFiles/simulator.dir/src/trader.cpp.obj: CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/simulator.dir/src/trader.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulator.dir/src/trader.cpp.obj -MF CMakeFiles\simulator.dir\src\trader.cpp.obj.d -o CMakeFiles\simulator.dir\src\trader.cpp.obj -c D:\Stock_Exchange_Simulator\src\trader.cpp
+
+CMakeFiles/simulator.dir/src/trader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulator.dir/src/trader.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Stock_Exchange_Simulator\src\trader.cpp > CMakeFiles\simulator.dir\src\trader.cpp.i
+
+CMakeFiles/simulator.dir/src/trader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/src/trader.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Stock_Exchange_Simulator\src\trader.cpp -o CMakeFiles\simulator.dir\src\trader.cpp.s
+
 # Object files for target simulator
 simulator_OBJECTS = \
-"CMakeFiles/simulator.dir/src/main.cpp.obj"
+"CMakeFiles/simulator.dir/src/exchange.cpp.obj" \
+"CMakeFiles/simulator.dir/src/main.cpp.obj" \
+"CMakeFiles/simulator.dir/src/order.cpp.obj" \
+"CMakeFiles/simulator.dir/src/stock.cpp.obj" \
+"CMakeFiles/simulator.dir/src/trader.cpp.obj"
 
 # External object files for target simulator
 simulator_EXTERNAL_OBJECTS =
 
+simulator.exe: CMakeFiles/simulator.dir/src/exchange.cpp.obj
 simulator.exe: CMakeFiles/simulator.dir/src/main.cpp.obj
+simulator.exe: CMakeFiles/simulator.dir/src/order.cpp.obj
+simulator.exe: CMakeFiles/simulator.dir/src/stock.cpp.obj
+simulator.exe: CMakeFiles/simulator.dir/src/trader.cpp.obj
 simulator.exe: CMakeFiles/simulator.dir/build.make
 simulator.exe: CMakeFiles/simulator.dir/linkLibs.rsp
 simulator.exe: CMakeFiles/simulator.dir/objects1.rsp
 simulator.exe: CMakeFiles/simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Stock_Exchange_Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable simulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\simulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
