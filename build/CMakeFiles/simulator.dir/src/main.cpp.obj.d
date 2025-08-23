@@ -153,4 +153,5 @@ CMakeFiles/simulator.dir/src/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
  D:/Stock_Exchange_Simulator/include/stock_exchange/Order.h \
+ D:/Stock_Exchange_Simulator/include/stock_exchange/trade.h \
  D:/Stock_Exchange_Simulator/include/stock_exchange/trader.h

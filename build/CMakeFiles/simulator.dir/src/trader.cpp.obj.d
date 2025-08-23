@@ -312,4 +312,5 @@ CMakeFiles/simulator.dir/src/trader.cpp.obj: \
  c:\mingw\include\c++\11.2.0\variant \
  D:/Stock_Exchange_Simulator/include/stock_exchange/Exchange.h \
  D:/Stock_Exchange_Simulator/include/stock_exchange/stock.h \
- D:/Stock_Exchange_Simulator/include/stock_exchange/Order.h
+ D:/Stock_Exchange_Simulator/include/stock_exchange/Order.h \
+ D:/Stock_Exchange_Simulator/include/stock_exchange/trade.h

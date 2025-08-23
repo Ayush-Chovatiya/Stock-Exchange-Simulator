@@ -112,76 +112,7 @@ CMakeFiles/simulator.dir/src/stock.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
  D:/Stock_Exchange_Simulator/include/stock_exchange/Order.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\stdc++.h \
- c:\mingw\include\c++\11.2.0\cassert \
- c:\mingw\x86_64-w64-mingw32\include\assert.h \
- c:\mingw\include\c++\11.2.0\cfloat \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\float.h \
- c:\mingw\x86_64-w64-mingw32\include\float.h \
- c:\mingw\include\c++\11.2.0\ciso646 c:\mingw\include\c++\11.2.0\climits \
- c:\mingw\include\c++\11.2.0\cmath \
- c:\mingw\x86_64-w64-mingw32\include\math.h \
- c:\mingw\include\c++\11.2.0\bits\specfun.h \
- c:\mingw\include\c++\11.2.0\limits \
- c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
- c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
- c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
- c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
- c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
- c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
- c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
- c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
- c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
- c:\mingw\include\c++\11.2.0\csetjmp \
- c:\mingw\x86_64-w64-mingw32\include\setjmp.h \
- c:\mingw\include\c++\11.2.0\csignal c:\mingw\include\c++\11.2.0\cstdarg \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdarg.h \
- c:\mingw\x86_64-w64-mingw32\include\stdarg.h \
- c:\mingw\x86_64-w64-mingw32\include\_mingw_stdarg.h \
- c:\mingw\include\c++\11.2.0\cstddef c:\mingw\include\c++\11.2.0\cstring \
- c:\mingw\x86_64-w64-mingw32\include\string.h \
- c:\mingw\x86_64-w64-mingw32\include\sec_api\string_s.h \
- c:\mingw\include\c++\11.2.0\ctime c:\mingw\include\c++\11.2.0\cwctype \
- c:\mingw\x86_64-w64-mingw32\include\wctype.h \
- c:\mingw\include\c++\11.2.0\ccomplex c:\mingw\include\c++\11.2.0\complex \
- c:\mingw\include\c++\11.2.0\sstream c:\mingw\include\c++\11.2.0\istream \
- c:\mingw\include\c++\11.2.0\ios c:\mingw\include\c++\11.2.0\exception \
- c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
- c:\mingw\include\c++\11.2.0\typeinfo \
- c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
- c:\mingw\include\c++\11.2.0\bits\ios_base.h \
- c:\mingw\include\c++\11.2.0\bits\locale_classes.h \
- c:\mingw\include\c++\11.2.0\bits\locale_classes.tcc \
- c:\mingw\include\c++\11.2.0\system_error \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h \
- c:\mingw\include\c++\11.2.0\stdexcept \
- c:\mingw\include\c++\11.2.0\streambuf \
- c:\mingw\include\c++\11.2.0\bits\streambuf.tcc \
- c:\mingw\include\c++\11.2.0\bits\basic_ios.h \
- c:\mingw\include\c++\11.2.0\bits\locale_facets.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_base.h \
- c:\mingw\include\c++\11.2.0\bits\streambuf_iterator.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_inline.h \
- c:\mingw\include\c++\11.2.0\bits\locale_facets.tcc \
- c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
- c:\mingw\include\c++\11.2.0\ostream \
- c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
- c:\mingw\include\c++\11.2.0\bits\istream.tcc \
- c:\mingw\include\c++\11.2.0\bits\sstream.tcc \
- c:\mingw\include\c++\11.2.0\cfenv c:\mingw\include\c++\11.2.0\fenv.h \
- c:\mingw\x86_64-w64-mingw32\include\fenv.h \
- c:\mingw\include\c++\11.2.0\cinttypes \
- c:\mingw\x86_64-w64-mingw32\include\inttypes.h \
- c:\mingw\include\c++\11.2.0\cstdalign \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdalign.h \
- c:\mingw\include\c++\11.2.0\cstdbool \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdbool.h \
- c:\mingw\include\c++\11.2.0\ctgmath c:\mingw\include\c++\11.2.0\cuchar \
- c:\mingw\x86_64-w64-mingw32\include\uchar.h \
+ D:/Stock_Exchange_Simulator/include/stock_exchange/trade.h \
  c:\mingw\include\c++\11.2.0\algorithm \
  c:\mingw\include\c++\11.2.0\utility \
  c:\mingw\include\c++\11.2.0\bits\stl_relops.h \
@@ -197,6 +128,7 @@ CMakeFiles/simulator.dir/src/stock.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\invoke.h \
  c:\mingw\include\c++\11.2.0\bits\refwrap.h \
  c:\mingw\include\c++\11.2.0\bits\std_function.h \
+ c:\mingw\include\c++\11.2.0\typeinfo \
  c:\mingw\include\c++\11.2.0\unordered_map \
  c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
  c:\mingw\include\c++\11.2.0\bits\hashtable.h \
@@ -205,109 +137,28 @@ CMakeFiles/simulator.dir/src/stock.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\unordered_map.h \
  c:\mingw\include\c++\11.2.0\bits\erase_if.h \
  c:\mingw\include\c++\11.2.0\pstl\execution_defs.h \
- c:\mingw\include\c++\11.2.0\bitset c:\mingw\include\c++\11.2.0\deque \
- c:\mingw\include\c++\11.2.0\bits\stl_deque.h \
- c:\mingw\include\c++\11.2.0\bits\deque.tcc \
- c:\mingw\include\c++\11.2.0\fstream \
- c:\mingw\include\c++\11.2.0\bits\codecvt.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\basic_file.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
- c:\mingw\include\c++\11.2.0\bits\fstream.tcc \
- c:\mingw\include\c++\11.2.0\iomanip c:\mingw\include\c++\11.2.0\locale \
- c:\mingw\include\c++\11.2.0\bits\locale_facets_nonio.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\time_members.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\messages_members.h \
- c:\mingw\include\c++\11.2.0\bits\locale_facets_nonio.tcc \
- c:\mingw\include\c++\11.2.0\bits\locale_conv.h \
- c:\mingw\include\c++\11.2.0\bits\unique_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\quoted_string.h \
- c:\mingw\include\c++\11.2.0\iostream \
- c:\mingw\include\c++\11.2.0\iterator \
- c:\mingw\include\c++\11.2.0\bits\stream_iterator.h \
- c:\mingw\include\c++\11.2.0\list \
- c:\mingw\include\c++\11.2.0\bits\stl_list.h \
- c:\mingw\include\c++\11.2.0\bits\allocated_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\list.tcc \
- c:\mingw\include\c++\11.2.0\map \
- c:\mingw\include\c++\11.2.0\bits\stl_tree.h \
- c:\mingw\include\c++\11.2.0\bits\stl_map.h \
- c:\mingw\include\c++\11.2.0\bits\stl_multimap.h \
- c:\mingw\include\c++\11.2.0\memory \
- c:\mingw\include\c++\11.2.0\bits\stl_raw_storage_iter.h \
- c:\mingw\include\c++\11.2.0\bits\align.h c:\mingw\include\c++\11.2.0\bit \
- c:\mingw\include\c++\11.2.0\bits\shared_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\shared_ptr_base.h \
- c:\mingw\include\c++\11.2.0\ext\concurrence.h \
- c:\mingw\include\c++\11.2.0\bits\shared_ptr_atomic.h \
- c:\mingw\include\c++\11.2.0\bits\atomic_base.h \
- c:\mingw\include\c++\11.2.0\bits\atomic_lockfree_defines.h \
- c:\mingw\include\c++\11.2.0\backward\auto_ptr.h \
- c:\mingw\include\c++\11.2.0\pstl\glue_memory_defs.h \
- c:\mingw\include\c++\11.2.0\numeric \
- c:\mingw\include\c++\11.2.0\bits\stl_numeric.h \
- c:\mingw\include\c++\11.2.0\pstl\glue_numeric_defs.h \
- c:\mingw\include\c++\11.2.0\queue \
- c:\mingw\include\c++\11.2.0\bits\stl_queue.h \
- c:\mingw\include\c++\11.2.0\set \
- c:\mingw\include\c++\11.2.0\bits\stl_set.h \
- c:\mingw\include\c++\11.2.0\bits\stl_multiset.h \
- c:\mingw\include\c++\11.2.0\stack \
- c:\mingw\include\c++\11.2.0\bits\stl_stack.h \
- c:\mingw\include\c++\11.2.0\valarray \
- c:\mingw\include\c++\11.2.0\bits\valarray_array.h \
- c:\mingw\include\c++\11.2.0\bits\valarray_array.tcc \
- c:\mingw\include\c++\11.2.0\bits\valarray_before.h \
- c:\mingw\include\c++\11.2.0\bits\slice_array.h \
- c:\mingw\include\c++\11.2.0\bits\valarray_after.h \
- c:\mingw\include\c++\11.2.0\bits\gslice.h \
- c:\mingw\include\c++\11.2.0\bits\gslice_array.h \
- c:\mingw\include\c++\11.2.0\bits\mask_array.h \
- c:\mingw\include\c++\11.2.0\bits\indirect_array.h \
- c:\mingw\include\c++\11.2.0\atomic c:\mingw\include\c++\11.2.0\chrono \
- c:\mingw\include\c++\11.2.0\ratio \
- c:\mingw\include\c++\11.2.0\bits\parse_numbers.h \
- c:\mingw\include\c++\11.2.0\codecvt \
- c:\mingw\include\c++\11.2.0\condition_variable \
- c:\mingw\include\c++\11.2.0\bits\std_mutex.h \
- c:\mingw\include\c++\11.2.0\bits\unique_lock.h \
- c:\mingw\include\c++\11.2.0\forward_list \
- c:\mingw\include\c++\11.2.0\bits\forward_list.h \
- c:\mingw\include\c++\11.2.0\bits\forward_list.tcc \
- c:\mingw\include\c++\11.2.0\future c:\mingw\include\c++\11.2.0\mutex \
- c:\mingw\include\c++\11.2.0\bits\atomic_futex.h \
- c:\mingw\include\c++\11.2.0\bits\std_thread.h \
- c:\mingw\include\c++\11.2.0\random \
- c:\mingw\include\c++\11.2.0\bits\random.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\opt_random.h \
- c:\mingw\include\c++\11.2.0\bits\random.tcc \
- c:\mingw\include\c++\11.2.0\regex \
- c:\mingw\include\c++\11.2.0\bits\regex_constants.h \
- c:\mingw\include\c++\11.2.0\bits\regex_error.h \
- c:\mingw\include\c++\11.2.0\bits\regex_automaton.h \
- c:\mingw\include\c++\11.2.0\bits\regex_automaton.tcc \
- c:\mingw\include\c++\11.2.0\bits\regex_scanner.h \
- c:\mingw\include\c++\11.2.0\bits\regex_scanner.tcc \
- c:\mingw\include\c++\11.2.0\bits\regex_compiler.h \
- c:\mingw\include\c++\11.2.0\bits\regex_compiler.tcc \
- c:\mingw\include\c++\11.2.0\bits\regex.h \
- c:\mingw\include\c++\11.2.0\bits\regex.tcc \
- c:\mingw\include\c++\11.2.0\bits\regex_executor.h \
- c:\mingw\include\c++\11.2.0\bits\regex_executor.tcc \
- c:\mingw\include\c++\11.2.0\scoped_allocator \
- c:\mingw\include\c++\11.2.0\thread \
- c:\mingw\include\c++\11.2.0\bits\this_thread_sleep.h \
- c:\mingw\include\c++\11.2.0\typeindex \
- c:\mingw\include\c++\11.2.0\unordered_set \
- c:\mingw\include\c++\11.2.0\bits\unordered_set.h \
- c:\mingw\include\c++\11.2.0\shared_mutex c:\mingw\include\c++\11.2.0\any \
- c:\mingw\include\c++\11.2.0\charconv \
- c:\mingw\include\c++\11.2.0\filesystem \
- c:\mingw\include\c++\11.2.0\bits\fs_fwd.h \
- c:\mingw\include\c++\11.2.0\bits\fs_path.h \
- c:\mingw\include\c++\11.2.0\bits\fs_dir.h \
- c:\mingw\include\c++\11.2.0\bits\fs_ops.h \
- c:\mingw\include\c++\11.2.0\optional \
- c:\mingw\include\c++\11.2.0\bits\enable_special_members.h \
- c:\mingw\include\c++\11.2.0\memory_resource \
- c:\mingw\include\c++\11.2.0\bits\uses_allocator_args.h \
- c:\mingw\include\c++\11.2.0\variant
+ c:\mingw\include\c++\11.2.0\iostream c:\mingw\include\c++\11.2.0\ostream \
+ c:\mingw\include\c++\11.2.0\ios c:\mingw\include\c++\11.2.0\exception \
+ c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
+ c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
+ c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
+ c:\mingw\include\c++\11.2.0\bits\ios_base.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_classes.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_classes.tcc \
+ c:\mingw\include\c++\11.2.0\system_error \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h \
+ c:\mingw\include\c++\11.2.0\stdexcept \
+ c:\mingw\include\c++\11.2.0\streambuf \
+ c:\mingw\include\c++\11.2.0\bits\streambuf.tcc \
+ c:\mingw\include\c++\11.2.0\bits\basic_ios.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_facets.h \
+ c:\mingw\include\c++\11.2.0\cwctype \
+ c:\mingw\x86_64-w64-mingw32\include\wctype.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_base.h \
+ c:\mingw\include\c++\11.2.0\bits\streambuf_iterator.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_inline.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_facets.tcc \
+ c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
+ c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
+ c:\mingw\include\c++\11.2.0\istream \
+ c:\mingw\include\c++\11.2.0\bits\istream.tcc
