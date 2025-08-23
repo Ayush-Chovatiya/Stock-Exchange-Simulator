@@ -1,0 +1,3 @@
+D:/Stock_Exchange_Simulator/build/CMakeFiles/simulator.dir
+D:/Stock_Exchange_Simulator/build/CMakeFiles/edit_cache.dir
+D:/Stock_Exchange_Simulator/build/CMakeFiles/rebuild_cache.dir
