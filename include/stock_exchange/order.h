@@ -1,27 +1,24 @@
-#pragma once  // Prevents the file from being included multiple times
+#pragma once
 #include <string>
-using namespace std;
-
-// Enum for order type
-enum class OrderType { GOOD_TILL_CANCEL,
-                       FILL_AND_KILL };
 
 class Order {
  public:
-  // Constructor
-  Order(int orderID, const string& symbol, double price, int quantity, bool isBuy);
+  Order(int orderID, int traderID, const std::string& symbol, double price, int quantity, bool isBuy);
 
   // Getters
   int getOrderID() const { return orderID; }
-  const string& getSymbol() const { return symbol; }
+  int getTraderID() const { return traderID; }  // Add this getter
+  const std::string& getSymbol() const { return symbol; }
   double getPrice() const { return price; }
   int getQuantity() const { return quantity; }
   bool isBuyOrder() const { return isBuy; }
+  
 
  private:
   int orderID;
-  string symbol;  // e.g., "AAPL"
+  int traderID;  // The ID of the trader who placed the order
+  std::string symbol;
   double price;
   int quantity;
-  bool isBuy;  // true for buy order, false for sell order
+  bool isBuy;
 };

@@ -1,6 +1,8 @@
 #include "stock_exchange/Stock.h"
 
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -14,7 +16,7 @@ void Stock::addOrder(const Order& order) {
   }
 }
 
-void Stock::executeTrades() {
+vector<Trade> Stock::executeTrades() {
   // Sort: buys high→low, sells low→high
   sort(buyOrders.begin(), buyOrders.end(),
        [](const Order& a, const Order& b) {
@@ -26,21 +28,23 @@ void Stock::executeTrades() {
        });
 
   // Match as long as best buy >= best sell
+  vector<Trade> trades_done;
   while (!buyOrders.empty() && !sellOrders.empty() &&
          buyOrders.front().getPrice() >= sellOrders.front().getPrice()) {
     Order& buy = buyOrders.front();
     Order& sell = sellOrders.front();
 
-    cout << "\n--- Trade Executed ---" << endl;
-    cout << "Stock: " << symbol
-         << " | Price: $" << sell.getPrice() << endl;
-    cout << "Buyer Order " << buy.getOrderID()
-         << " vs Seller Order " << sell.getOrderID() << endl;
+    cout << "\n--- Match Found! ---" << endl;
+    cout << "Executing trade for " << symbol << " at price $" << sell.getPrice() << endl;
+
+    trades_done.push_back({buy.getTraderID(), sell.getTraderID(), symbol, buy.getQuantity(), sell.getPrice()});
 
     // Simple: remove both (ignores partial qty)
     buyOrders.erase(buyOrders.begin());
     sellOrders.erase(sellOrders.begin());
   }
+
+  return trades_done;
 }
 
 void Stock::displayOrderBook() const {

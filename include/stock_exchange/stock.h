@@ -3,6 +3,7 @@
 #include <vector>
 
 #include "Order.h"
+#include "trade.h"
 
 using namespace std;
 
@@ -12,7 +13,7 @@ class Stock {
 
   // Public methods to interact with the stock
   void addOrder(const Order& order);
-  void executeTrades();
+  vector<Trade> executeTrades();
   void displayOrderBook() const;
   const string& getSymbol() const { return symbol; }
 

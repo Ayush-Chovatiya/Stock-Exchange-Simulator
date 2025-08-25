@@ -14,6 +14,7 @@ class Exchange {
   void addStock(const std::string& symbol);
   void addTrader(const Trader& trader);
   void submitOrder(const Order& order);
+  void printTraderPortfolios() const;
 
  private:
   std::map<std::string, Stock> stocks;
